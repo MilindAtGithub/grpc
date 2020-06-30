@@ -1,0 +1,25 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.milind.grpc.generated;
+
+message Shipment{
+    int32 shipmentLocation=1;
+    bool giveFragileItems=2;
+}
+message Item{
+    int32 itemId=1;
+    string itemDesc=2;
+    double price=3;
+}
+message Order{
+    int64 orderId =1;
+    int32 shipmentLocation=2;
+    bool fragileIncluded = 3;
+    repeated Item items=4;
+}
+
+
+
+service OrderService {
+    rpc getShipment(Shipment) returns (stream Order);
+}

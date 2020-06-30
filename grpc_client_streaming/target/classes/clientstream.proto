@@ -1,0 +1,18 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.milind.grpc;
+
+message StreamRequest {
+    string empName = 1;
+    int64 marks = 2;
+}
+
+message StreamResponse {
+    string empList = 1;
+    int64 totalEmp=2;
+    int64 averageMarks=3;
+}
+
+service MarkService {
+    rpc examine(stream StreamRequest) returns (StreamResponse);
+}

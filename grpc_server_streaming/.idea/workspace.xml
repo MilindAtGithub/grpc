@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b5d4fc5-68f3-444c-8795-18df6916c821" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/grpc_client_streaming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/Clientstream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/FileData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/FileDataOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/MarkServiceGrpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/StreamRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/StreamRequestOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/StreamResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/StreamResponseOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/UploadServiceGrpc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/UploadStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/UploadStatusCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/UploadStatusOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/client/MarkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/client/MarkClientMultithreaded.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/client/UploadClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/server/MarkServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/server/MarkServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/server/NameAppender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/java/com/milind/grpc/server/UploadServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/src/main/proto/clientstream.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/Clientstream$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/Clientstream.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/FileData$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/FileData$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/FileData.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/FileDataOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/MarkServiceGrpc$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/MarkServiceGrpc$MarkServiceBlockingStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/MarkServiceGrpc$MarkServiceFutureStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/MarkServiceGrpc$MarkServiceImplBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/MarkServiceGrpc$MarkServiceStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/MarkServiceGrpc$MethodHandlers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/MarkServiceGrpc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/StreamRequest$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/StreamRequest$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/StreamRequest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/StreamRequestOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/StreamResponse$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/StreamResponse$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/StreamResponse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/StreamResponseOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadServiceGrpc$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadServiceGrpc$MethodHandlers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadServiceGrpc$UploadServiceBlockingStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadServiceGrpc$UploadServiceFutureStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadServiceGrpc$UploadServiceImplBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadServiceGrpc$UploadServiceStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadServiceGrpc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadStatus$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadStatus$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadStatus.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadStatusCode$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadStatusCode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/UploadStatusOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/client/MarkClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/client/MarkClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/client/MarkClientMultithreaded.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/client/MarkTask$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/client/MarkTask.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/client/UploadClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/client/UploadClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/server/MarkServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/server/MarkServiceImp$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/server/MarkServiceImp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/server/NameAppender.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/server/UploadServiceImpl$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/classes/com/milind/grpc/server/UploadServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/grpc_client_streaming-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/grpc_client_streaming-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_client_streaming/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/grpc_server_streaming.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/client/ShipmentClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/generated/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/generated/ItemOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/generated/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/generated/OrderOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/generated/ServersideStreaming.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/generated/Shipment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/generated/ShipmentOrBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/server/OrderServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/server/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/milind/grpc/server/OrderStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/proto/serverside-streaming.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/client/ShipmentClient.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/Item$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/Item$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/Item.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/ItemOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/Order$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/Order$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/OrderOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/OrderServiceGrpc$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/OrderServiceGrpc$MethodHandlers.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/OrderServiceGrpc$OrderServiceBlockingStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/OrderServiceGrpc$OrderServiceFutureStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/OrderServiceGrpc$OrderServiceImplBase.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/OrderServiceGrpc$OrderServiceStub.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/OrderServiceGrpc.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/ServersideStreaming$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/ServersideStreaming.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/Shipment$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/Shipment$Builder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/Shipment.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/generated/ShipmentOrBuilder.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/server/OrderServer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/server/OrderServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/milind/grpc/server/OrderStore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/grpc_server_streaming-1.0-SNAPSHOT-jar-with-dependencies.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/grpc_server_streaming-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/grpc_simple_request_response.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/src/main/java/com/milind/grpc/client/GrpcClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/src/main/java/com/milind/grpc/client/GrpcClientSideLoadBalancing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/src/main/java/com/milind/grpc/client/GrpcMultiThreading.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/src/main/java/com/milind/grpc/client/GrpcReactiveClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/src/main/java/com/milind/grpc/server/GrpcServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/src/main/java/com/milind/grpc/server/ValutServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/src/main/proto/vault.proto" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/target/classes/com/milind/grpc/client/GrpcClientSideLoadBalancing.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/target/classes/com/milind/grpc/client/GrpcReactiveClient$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../grpc_simple_request_response/target/classes/com/milind/grpc/client/GrpcReactiveClient.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1d7H2B4VJHeILNhbu0r2oNdNSUj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.ShipmentClient">
+    <configuration name="OrderServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.milind.grpc.server.OrderServer" />
+      <module name="grpc_server_streaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.milind.grpc.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShipmentClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.milind.grpc.client.ShipmentClient" />
+      <module name="grpc_server_streaming" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.milind.grpc.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ShipmentClient" />
+        <item itemvalue="Application.OrderServer" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b5d4fc5-68f3-444c-8795-18df6916c821" name="Default Changelist" comment="" />
+      <created>1591769001257</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591769001257</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="121" y="0" key="#Project_Structure" timestamp="1591777743111">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="121" y="0" key="#Project_Structure/0.0.1280.680@0.0.1280.680" timestamp="1591777743111" />
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom" timestamp="1592218801312">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1592218801312" />
+    <state width="1237" height="156" key="GridCell.Tab.0.center" timestamp="1592218801312">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1592218801312" />
+    <state width="1237" height="156" key="GridCell.Tab.0.left" timestamp="1592218801311">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1592218801311" />
+    <state width="1237" height="156" key="GridCell.Tab.0.right" timestamp="1592218801312">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="156" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1592218801312" />
+    <state x="297" y="151" key="run.anything.popup" timestamp="1591782245398">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="297" y="151" key="run.anything.popup/0.0.1280.680@0.0.1280.680" timestamp="1591782245398" />
+  </component>
+</project>

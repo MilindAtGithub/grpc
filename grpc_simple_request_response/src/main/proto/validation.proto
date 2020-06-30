@@ -1,0 +1,19 @@
+syntax = "proto3";
+option java_multiple_files = true;
+package com.milind.grpc;
+
+message ValidationRequest {
+    string accountName = 1;
+    string accountNumber = 2;
+    string routingNumber = 3;
+}
+
+message ValidationResponse {
+    string accountNameError = 1;
+    string accountNumberError=2;
+    string routingNumberError=3;
+}
+
+service ValidationService {
+    rpc validate(ValidationRequest) returns (ValidationResponse);
+}
